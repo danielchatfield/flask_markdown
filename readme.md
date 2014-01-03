@@ -2,6 +2,10 @@
 
 A simple extension for adding a `{% markdown %}{% endmarkdown %}` tag to Jinja templates.
 
+## Installation
+
+`pip install flask_markdown2`
+
 ## Usage
 
 ```python
