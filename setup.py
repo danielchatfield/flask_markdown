@@ -4,7 +4,7 @@ except ImportError:
 	from distutils.core import setup
 
 setup(
-	name='flask_markdown',
+	name='flask_markdown2',
 	author='Daniel Chatfield',
 	author_email='chatfielddaniel@gmail.com',
 	version='0.0.1',
@@ -18,7 +18,7 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
 	],
-	install_requries=[
+	install_requires=[
 		'flask>=0.10.1',
 		'jinja_markdown>=0.0.1'
 	]
