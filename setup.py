@@ -7,7 +7,7 @@ setup(
 	name='flask_markdown2',
 	author='Daniel Chatfield',
 	author_email='chatfielddaniel@gmail.com',
-	version='0.0.1',
+	version='0.0.2',
 	ur='http://github.com/danielchatfield/flask_markdwon',
 	py_modules=['flask_markdown'],
 	description='A flask extension that adds a '
@@ -20,6 +20,6 @@ setup(
 	],
 	install_requires=[
 		'flask>=0.10.1',
-		'jinja_markdown>=0.0.1'
+		'jinja2_markdown>=0.0.1'
 	]
 )
