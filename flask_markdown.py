@@ -8,7 +8,7 @@
     :copyright: (c) 2013 by Daniel Chatfield
 """
 
-from jinja2.ext.markdown import MarkdownExtension
+from jinja2_markdown import MarkdownExtension
 
 
 def markdown(app):
